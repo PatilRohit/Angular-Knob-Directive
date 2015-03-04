@@ -3,7 +3,7 @@ Angular Directive for jQuery knob
 
 // Include jQuery & Angular Library
 ```html<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-.
+html
 ```html<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>.
 
 // Include jquery.knob.min.js for Knob & ng-Knob.js wrapper directive of jquery.knob.min.js
