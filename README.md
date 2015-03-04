@@ -3,12 +3,12 @@ Angular Directive for jQuery knob
 
 Include jQuery & Angular Library
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+//<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+//<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
 
 Include jquery.knob.min.js for Knob & ng-Knob.js wrapper directive of jquery.knob.min.js
-<script src="lib/jquery.knob.min.js"></script>
-<script src="js/Directive/ng-Knob.js"></script>
+//<script src="lib/jquery.knob.min.js"></script>
+//<script src="js/Directive/ng-Knob.js"></script>
 
 Then access directive 'ng-Knob' in app.js using
 
@@ -16,7 +16,7 @@ angular.module('ngKnobExample',['ng-Knob'])
 
 Create Knob using 
 
-<ng-knob  ng-model=change id="hh"/>.
+//<ng-knob  ng-model=change id="hh"/>
 
 Unique id is compulsory to each knob 
 
