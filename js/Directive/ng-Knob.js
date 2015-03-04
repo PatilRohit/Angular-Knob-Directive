@@ -19,6 +19,7 @@ angular.module('ng-Knob',[])
                            'step':1,
                            'release':function(v){
                            	   scope.value=v;
+                                   scope.$apply();
                            }
                            });      
                  //$('#hh').val(scope.value).trigger('change');
