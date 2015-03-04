@@ -7,9 +7,12 @@ Include jQuery & Angular Library
 //<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
 
 Include jquery.knob.min.js for Knob & ng-Knob.js wrapper directive of jquery.knob.min.js
-//<script src="lib/jquery.knob.min.js"></script>
-//<script src="js/Directive/ng-Knob.js"></script>
-
+```html
+<script src="lib/jquery.knob.min.js"></script>
+```
+```html
+<script src="js/Directive/ng-Knob.js"></script>
+```
 Then access directive 'ng-Knob' in app.js using
 
 angular.module('ngKnobExample',['ng-Knob'])
